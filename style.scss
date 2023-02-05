@@ -54,6 +54,9 @@ footer {
   z-index: -1;
   opacity: 0.5;
 
+  max-width: 530px;
+  width: 100%;
+
   &--left {
     top: 0;
     left: -22%;
@@ -167,7 +170,7 @@ h1 {
 .content {
   &__text {
     color: $text-secondary;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.4;
   }
 }
@@ -242,6 +245,7 @@ h1 {
   &__bottom {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   &__company {
@@ -387,7 +391,7 @@ h1 {
 
   &__nav {
     width: 100%;
-    max-width: 200px;
+    max-width: 150px;
   }
 }
 
@@ -428,6 +432,10 @@ h1 {
     flex-direction: column-reverse;
   }
 
+  .experience__company {
+    max-width: 300px;
+  }
+
   .stack-list {
     grid-row-gap: 25px;
 
@@ -453,23 +461,26 @@ h1 {
 }
 
 @media (max-width: 575px) {
+  body {
+    font-size: 12px;
+  }
   .nav {
     &__main {
       position: absolute;
       top: 80px;
       left: -100%;
       z-index: 1;
+      background-color: $bg-primary;
 
       flex-direction: column;
       gap: 20px;
       text-align: center;
       max-width: 140px;
-      background-color: red;
 
       transition: left 0.3s ease-in;
 
       &.active {
-        left: 0;
+        left: -20px; // padding
       }
     }
 
@@ -525,6 +536,32 @@ h1 {
           transform: rotate(45deg) translate(0, 50%);
         }
       }
+    }
+  }
+  .content {
+    &__title {
+      font-size: 2.5em;
+    }
+  }
+  .stack-list {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
+  }
+
+  .contacts__list {
+    li {
+      flex-basis: 50%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .footer {
+    &__nav {
+      max-width: 120px;
     }
   }
 }
