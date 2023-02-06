@@ -553,6 +553,12 @@ h1 {
     grid-row-gap: 15px;
   }
 
+  .project-card {
+    &__img {
+      height: 220px;
+    }
+  }
+
   .contacts__list {
     li {
       flex-basis: 50%;
