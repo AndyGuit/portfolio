@@ -467,17 +467,22 @@ h1 {
   .nav {
     &__main {
       position: absolute;
+      height: calc(100vh - 185px);
       top: 80px;
-      left: -100%;
+      left: calc(-100% - 65px);
       z-index: 1;
       background-color: $bg-primary;
 
       flex-direction: column;
       gap: 20px;
       text-align: center;
-      max-width: 140px;
+      width: 100vw;
 
-      transition: left 0.3s ease-in;
+      li {
+        font-size: 2em;
+      }
+
+      transition: left 0.3s ease-out;
 
       &.active {
         left: -20px; // padding
