@@ -216,7 +216,7 @@ h1 {
 .experience {
   &-block {
     margin-bottom: 60px;
-    border-bottom: 2px solid $text-secondary;
+    border-bottom: 2px outset $text-secondary;
     padding-bottom: 10px;
     color: $text-secondary;
 
