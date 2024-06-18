@@ -38,6 +38,10 @@ footer {
   position: relative;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 20px;
