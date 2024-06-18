@@ -431,12 +431,6 @@ h1 {
     font-size: 14px;
   }
 
-  .nav {
-    &__main {
-      max-width: 500px;
-    }
-  }
-
   .content {
     &__title {
       font-size: 3.5em;
@@ -496,17 +490,17 @@ h1 {
   .nav {
     &__main {
       position: absolute;
-      height: calc(100vh - 185px);
+      height: calc(100vh - 80px);
       top: 80px;
-      left: calc(-100% - 65px);
+      left: calc(-100% - 75px);
       z-index: 1;
       background-color: $bg-primary;
 
       flex-direction: column;
+      justify-content: space-evenly;
       gap: 20px;
       text-align: center;
       width: 100vw;
-
       li {
         font-size: 2em;
       }
