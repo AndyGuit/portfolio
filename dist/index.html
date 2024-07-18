@@ -1,30 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
-      rel="stylesheet" />
-
-    <link rel="stylesheet" href="./css/style.min.css" />
-    <script defer src="./index.js"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="container">
-      <nav class="nav__header">
-        <ul class="nav__main">
-          <li class="nav__link"><a href="#home">Home</a></li>
-          <li class="nav__link"><a href="#tech-stack">Tech Stack</a></li>
-          <li class="nav__link"><a href="#experience">Experience</a></li>
-          <li class="nav__link"><a href="#projects">Projects</a></li>
-          <li class="nav__link"><a href="#contacts">Contacts</a></li>
-        </ul>
-        <div class="nav__menu-icon"><span></span></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.min.css" />
+  <script defer src="./index.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <header class="container">
+    <nav class="nav__header">
+      <ul class="nav__main">
+        <li class="nav__link"><a href="#home">Home</a></li>
+        <li class="nav__link"><a href="#tech-stack">Tech Stack</a></li>
+        <li class="nav__link"><a href="#experience">Experience</a></li>
+        <li class="nav__link"><a href="#projects">Projects</a></li>
+        <li class="nav__link"><a href="#contacts">Contacts</a></li>
+      </ul>
+      <div class="nav__menu-icon"><span></span></div>
+      <ul class="nav__contacts">
+        <li>
+          <a target="_blank" href="https://github.com/AndyGuit">
+            <img class="svg" src="./img/icons/github.svg" alt="Github" />
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.frontendmentor.io/profile/AndyGuit">
+            <img class="svg" src="./img/icons/frontend-mentor.svg" alt="frontend-mentor" />
+          </a>
+        </li>
+        <li>
+          <a href="mailto:andy-dev-front@gmail.com">
+            <img class="svg" src="./img/icons/email.svg" alt="Email" />
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/andyguit/"><img class="svg"
+              src="./img/icons/linkedin.svg" alt="linkedin" /></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="home">
+      <img src="./img/rings.svg" alt="rings" class="background-rings background-rings--left" />
+      <div class="content">
+        <h1 class="content__title"> Nice to meet you! <br /> I'm <span class="developer-name">Andrii Dmytryk</span>
+          <br />
+        </h1>
+        <p class="content__text"> I'm a front-end developer <br />passionate about building accessible web apps
+          <br />that users love. </p>
+      </div>
+      <img class="photo" src="./img/photo_-no-bg-filter.png" alt="photo" />
+    </section>
+    <hr class="section-divider" />
+    <section id="tech-stack">
+      <ul class="stack-list">
+        <li><img src="./img/icons/html.svg" alt="html" class="svg" />HTML</li>
+        <li><img src="./img/icons/css.svg" alt="css" class="svg" />CSS</li>
+        <li><img src="./img/icons/sass.svg" alt="scss" class="svg" />SCSS</li>
+        <li>
+          <img src="./img/icons/js.svg" alt="js" class="svg" />JavaScript
+        </li>
+        <li>
+          <img src="./img/icons/react.svg" alt="react" class="svg" />React
+        </li>
+        <li>
+          <img src="./img/icons/redux.svg" alt="redux" class="svg" />Redux
+        </li>
+        <li><img src="./img/icons/gulp.svg" alt="gulp" class="svg" />Gulp</li>
+        <li>
+          <img src="./img/icons/webpack.svg" alt="webpack" class="svg" />Webpack
+        </li>
+        <li><img src="./img/icons/git.svg" alt="git" class="svg" />GIT</li>
+      </ul>
+    </section>
+    <hr class="section-divider" />
+    <section id="experience">
+      <img src="./img/rings.svg" alt="rings" class="background-rings background-rings--right" />
+      <aside>
+        <h2 class="section__header">Experience</h2>
+        <article class="experience-block">
+          <div class="experience__top">
+            <h3>Junior Web Developer</h3>
+            <p>Full Time</p>
+          </div>
+          <div class="experience__bottom">
+            <div class="experience__company">
+              <div class="experience__company-name">
+                <img class="svg" src="./img/icons/building.svg" alt="company" /> Dr. Rajkumar’s Learning App
+              </div>
+              <div class="experience__location">
+                <img class="svg" src="./img/icons/geolocation.svg" alt="location" /> Bengaluru
+              </div>
+            </div>
+            <div class="experience__dates">
+              <img class="svg" src="./img/icons/calendar.svg" alt="dates" /> Sep 2021 - Dec 2021
+            </div>
+          </div>
+        </article>
+        <h2 class="section__header">Education</h2>
+        <article class="experience-block">
+          <div class="experience__top">
+            <h3>JS / Front-End</h3>
+            <p>Full Time</p>
+          </div>
+          <div class="experience__bottom">
+            <div class="experience__company">
+              <div class="experience__company-name">
+                <img class="svg" src="./img/icons/building.svg" alt="company" /> RS-School
+              </div>
+              <div class="experience__location">
+                <img class="svg" src="./img/icons/geolocation.svg" alt="location" /> Online
+              </div>
+            </div>
+            <div class="experience__dates">
+              <img class="svg" src="./img/icons/calendar.svg" alt="dates" /> Jun 2021 - Nov 2021
+            </div>
+          </div>
+        </article>
+      </aside>
+    </section>
+    <!-- <hr class="section-divider" /> -->
+    <section id="projects">
+      <h2 class="section__header">Projects</h2>
+      <div class="projects-wrapper">
+        <article class="project-card">
+          <div class="project-card__img project-card__img--kanban">
+            <div class="project-card__overlay">
+              <ul class="project-card__links">
+                <li>
+                  <img src="./img/icons/link.svg" alt="link" class="svg" />
+                  <a target="_blank" href="https://kanban-task-management-nine-beta.vercel.app/">Live Preview</a>
+                </li>
+                <li>
+                  <img src="./img/icons/github.svg" alt="github" class="svg" />
+                  <a target="_blank" href="https://github.com/AndyGuit/kanban-task-management">View Code</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <h3 class="project-card__name">Kanban Task Management App</h3>
+            <ul class="project-card__stack-list">
+              <li>React</li>
+              <li>SCSS</li>
+              <li>TypeScript</li>
+              <li>Redux Toolkit</li>
+              <li>Vite</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-card__img project-card__img--louvre">
+            <div class="project-card__overlay">
+              <ul class="project-card__links">
+                <li>
+                  <img src="./img/icons/link.svg" alt="link" class="svg" />
+                  <a target="_blank" href="https://louvre-museum-landing-page.vercel.app/">Live Preview</a>
+                </li>
+                <li>
+                  <img src="./img/icons/github.svg" alt="github" class="svg" />
+                  <a target="_blank" href="https://github.com/AndyGuit/louvre-museum-landing-page">View Code</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <h3 class="project-card__name">Museum Landing Page</h3>
+            <ul class="project-card__stack-list">
+              <li>HTML</li>
+              <li>SCSS</li>
+              <li>JavaScript</li>
+              <li>Gulp</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-card__img project-card__img--momentum">
+            <div class="project-card__overlay">
+              <ul class="project-card__links">
+                <li>
+                  <img src="./img/icons/link.svg" alt="link" class="svg" />
+                  <a target="_blank" href="https://momentum-typescript.vercel.app/">Live Preview</a>
+                </li>
+                <li>
+                  <img src="./img/icons/github.svg" alt="github" class="svg" />
+                  <a target="_blank" href="https://github.com/AndyGuit/momentum-typescript">View Code</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-card__info">
+            <h3 class="project-card__name">Momentum App</h3>
+            <ul class="project-card__stack-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>TypeScript</li>
+              <li>Vite</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+    <hr class="section-divider" />
+    <section id="contacts">
+      <img src="./img/rings.svg" alt="rings" class="background-rings background-rings--left" />
+      <h2 class="section__header">Contacts</h2>
+      <ul class="contacts__list">
+        <li class="nav__link">
+          <a href="tel:+380503963331"><img class="svg" src="./img/icons/phone.svg" alt="Phone" />Phone</a>
+        </li>
+        <li class="nav__link">
+          <a href="mailto:andy-dev-front@gmail.com"><img class="svg" src="./img/icons/email.svg"
+              alt="E-Mail" />E-Mail</a>
+        </li>
+        <li class="nav__link">
+          <a target="_blank" href="https://www.linkedin.com/in/andyguit/"><img class="svg"
+              src="./img/icons/linkedin.svg" alt="Linkedin" />Linkedin</a>
+        </li>
+        <li class="nav__link">
+          <a target="_blank" href="https://t.me/andyguit"><img class="svg" src="./img/icons/telegram.svg"
+              alt="Telegram" />Telegram</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="container">
+    <hr class="section-divider" />
+    <div class="footer">
+      <h2 class="footer__name developer-name developer-name--footer"> Andrii Dmytryk </h2>
+      <nav class="footer__nav">
         <ul class="nav__contacts">
           <li>
             <a target="_blank" href="https://github.com/AndyGuit">
@@ -32,13 +242,8 @@
             </a>
           </li>
           <li>
-            <a
-              target="_blank"
-              href="https://www.frontendmentor.io/profile/AndyGuit">
-              <img
-                class="svg"
-                src="./img/icons/frontend-mentor.svg"
-                alt="frontend-mentor" />
+            <a target="_blank" href="https://www.frontendmentor.io/profile/AndyGuit">
+              <img class="svg" src="./img/icons/frontend-mentor.svg" alt="frontend-mentor" />
             </a>
           </li>
           <li>
@@ -47,317 +252,12 @@
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/andyguit/"
-              ><img class="svg" src="./img/icons/linkedin.svg" alt="linkedin"
-            /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/andyguit/"><img class="svg"
+                src="./img/icons/linkedin.svg" alt="linkedin" /></a>
           </li>
         </ul>
       </nav>
-    </header>
-    <main class="container">
-      <section id="home">
-        <img
-          src="./img/rings.svg"
-          alt="rings"
-          class="background-rings background-rings--left" />
-        <div class="content">
-          <h1 class="content__title">
-            Nice to meet you! <br />
-            I'm <span class="developer-name">Andrii Dmytryk</span> <br />
-          </h1>
-          <p class="content__text">
-            I'm a front-end developer <br />passionate about building accessible
-            web apps <br />that users love.
-          </p>
-        </div>
-        <img class="photo" src="./img/photo_-no-bg-filter.png" alt="photo" />
-      </section>
-      <hr class="section-divider" />
-      <section id="tech-stack">
-        <ul class="stack-list">
-          <li><img src="./img/icons/html.svg" alt="html" class="svg" />HTML</li>
-          <li><img src="./img/icons/css.svg" alt="css" class="svg" />CSS</li>
-          <li><img src="./img/icons/sass.svg" alt="scss" class="svg" />SCSS</li>
-          <li>
-            <img src="./img/icons/js.svg" alt="js" class="svg" />JavaScript
-          </li>
-          <li>
-            <img src="./img/icons/react.svg" alt="react" class="svg" />React
-          </li>
-          <li>
-            <img src="./img/icons/redux.svg" alt="redux" class="svg" />Redux
-          </li>
-          <li><img src="./img/icons/gulp.svg" alt="gulp" class="svg" />Gulp</li>
-          <li>
-            <img
-              src="./img/icons/webpack.svg"
-              alt="webpack"
-              class="svg" />Webpack
-          </li>
-          <li><img src="./img/icons/git.svg" alt="git" class="svg" />GIT</li>
-        </ul>
-      </section>
-      <hr class="section-divider" />
-      <section id="experience">
-        <img
-          src="./img/rings.svg"
-          alt="rings"
-          class="background-rings background-rings--right" />
-        <aside>
-          <h2 class="section__header">Experience</h2>
-          <article class="experience-block">
-            <div class="experience__top">
-              <h3>Junior Web Developer</h3>
-              <p>Full Time</p>
-            </div>
-            <div class="experience__bottom">
-              <div class="experience__company">
-                <div class="experience__company-name">
-                  <img
-                    class="svg"
-                    src="./img/icons/building.svg"
-                    alt="company" />
-                  Dr. Rajkumar’s Learning App
-                </div>
-                <div class="experience__location">
-                  <img
-                    class="svg"
-                    src="./img/icons/geolocation.svg"
-                    alt="location" />
-                  Bengaluru
-                </div>
-              </div>
-              <div class="experience__dates">
-                <img class="svg" src="./img/icons/calendar.svg" alt="dates" />
-                Sep 2021 - Dec 2021
-              </div>
-            </div>
-          </article>
-          <h2 class="section__header">Education</h2>
-          <article class="experience-block">
-            <div class="experience__top">
-              <h3>JS / Front-End</h3>
-              <p>Full Time</p>
-            </div>
-            <div class="experience__bottom">
-              <div class="experience__company">
-                <div class="experience__company-name">
-                  <img
-                    class="svg"
-                    src="./img/icons/building.svg"
-                    alt="company" />
-                  RS-School
-                </div>
-                <div class="experience__location">
-                  <img
-                    class="svg"
-                    src="./img/icons/geolocation.svg"
-                    alt="location" />
-                  Online
-                </div>
-              </div>
-              <div class="experience__dates">
-                <img class="svg" src="./img/icons/calendar.svg" alt="dates" />
-                Jun 2021 - Nov 2021
-              </div>
-            </div>
-          </article>
-        </aside>
-      </section>
-      <!-- <hr class="section-divider" /> -->
-      <section id="projects">
-        <h2 class="section__header">Projects</h2>
-        <div class="projects-wrapper">
-          <article class="project-card">
-            <div class="project-card__img project-card__img--louvre">
-              <div class="project-card__overlay">
-                <ul class="project-card__links">
-                  <li>
-                    <img src="./img/icons/link.svg" alt="link" class="svg" />
-                    <a
-                      target="_blank"
-                      href="https://louvre-museum-landing-page.vercel.app/"
-                      >Live Preview</a
-                    >
-                  </li>
-                  <li>
-                    <img
-                      src="./img/icons/github.svg"
-                      alt="github"
-                      class="svg" />
-                    <a
-                      target="_blank"
-                      href="https://github.com/AndyGuit/louvre-museum-landing-page"
-                      >View Code</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-card__info">
-              <h3 class="project-card__name">Museum Landing Page</h3>
-              <ul class="project-card__stack-list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Gulp</li>
-              </ul>
-            </div>
-          </article>
-          <article class="project-card">
-            <div class="project-card__img project-card__img--momentum">
-              <div class="project-card__overlay">
-                <ul class="project-card__links">
-                  <li>
-                    <img src="./img/icons/link.svg" alt="link" class="svg" />
-                    <a
-                      target="_blank"
-                      href="https://momentum-typescript.vercel.app/"
-                      >Live Preview</a
-                    >
-                  </li>
-                  <li>
-                    <img
-                      src="./img/icons/github.svg"
-                      alt="github"
-                      class="svg" />
-                    <a
-                      target="_blank"
-                      href="https://github.com/AndyGuit/momentum-typescript"
-                      >View Code</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-card__info">
-              <h3 class="project-card__name">Momentum App</h3>
-              <ul class="project-card__stack-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>TypeScript</li>
-                <li>Vite</li>
-              </ul>
-            </div>
-          </article>
-          <article class="project-card">
-            <div class="project-card__img project-card__img--kanban">
-              <div class="project-card__overlay">
-                <ul class="project-card__links">
-                  <li>
-                    <img src="./img/icons/link.svg" alt="link" class="svg" />
-                    <a
-                      target="_blank"
-                      href="https://kanban-task-management-nine-beta.vercel.app/"
-                      >Live Preview</a
-                    >
-                  </li>
-                  <li>
-                    <img
-                      src="./img/icons/github.svg"
-                      alt="github"
-                      class="svg" />
-                    <a
-                      target="_blank"
-                      href="https://github.com/AndyGuit/kanban-task-management"
-                      >View Code</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-card__info">
-              <h3 class="project-card__name">Kanban Task Management App</h3>
-              <ul class="project-card__stack-list">
-                <li>React</li>
-                <li>SCSS</li>
-                <li>TypeScript</li>
-                <li>Redux Toolkit</li>
-                <li>Vite</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </section>
-      <hr class="section-divider" />
-      <section id="contacts">
-        <img
-          src="./img/rings.svg"
-          alt="rings"
-          class="background-rings background-rings--left" />
-        <h2 class="section__header">Contacts</h2>
-        <ul class="contacts__list">
-          <li class="nav__link">
-            <a href="tel:+380503963331"
-              ><img
-                class="svg"
-                src="./img/icons/phone.svg"
-                alt="Phone" />Phone</a
-            >
-          </li>
-          <li class="nav__link">
-            <a href="mailto:andy-dev-front@gmail.com"
-              ><img
-                class="svg"
-                src="./img/icons/email.svg"
-                alt="E-Mail" />E-Mail</a
-            >
-          </li>
-          <li class="nav__link">
-            <a target="_blank" href="https://www.linkedin.com/in/andyguit/"
-              ><img
-                class="svg"
-                src="./img/icons/linkedin.svg"
-                alt="Linkedin" />Linkedin</a
-            >
-          </li>
-          <li class="nav__link">
-            <a target="_blank" href="https://t.me/andyguit"
-              ><img
-                class="svg"
-                src="./img/icons/telegram.svg"
-                alt="Telegram" />Telegram</a
-            >
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="container">
-      <hr class="section-divider" />
-      <div class="footer">
-        <h2 class="footer__name developer-name developer-name--footer">
-          Andrii Dmytryk
-        </h2>
-        <nav class="footer__nav">
-          <ul class="nav__contacts">
-            <li>
-              <a target="_blank" href="https://github.com/AndyGuit">
-                <img class="svg" src="./img/icons/github.svg" alt="Github" />
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.frontendmentor.io/profile/AndyGuit">
-                <img
-                  class="svg"
-                  src="./img/icons/frontend-mentor.svg"
-                  alt="frontend-mentor" />
-              </a>
-            </li>
-            <li>
-              <a href="mailto:andy-dev-front@gmail.com">
-                <img class="svg" src="./img/icons/email.svg" alt="Email" />
-              </a>
-            </li>
-            <li>
-              <a target="_blank" href="https://www.linkedin.com/in/andyguit/"
-                ><img class="svg" src="./img/icons/linkedin.svg" alt="linkedin"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
 </html>
