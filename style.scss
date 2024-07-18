@@ -260,6 +260,10 @@ h1 {
     max-width: 360px;
     width: 100%;
   }
+
+  &__link {
+    text-decoration: underline;
+  }
 }
 
 /*=============== Section Projects =============*/
