@@ -6,7 +6,6 @@ const toggleBurgerMenu = () => {
   window.scrollTo(0, 0);
   burgerIcon.classList.toggle('active');
   navMenu.classList.toggle('active');
-  document.body.classList.toggle('no-scroll');
 };
 
 burgerIcon.addEventListener('click', toggleBurgerMenu);
