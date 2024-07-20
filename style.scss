@@ -405,10 +405,14 @@ h1 {
     font-size: 1.8em;
   }
 
+  &__description {
+    margin-top: 10px;
+  }
+
   &__stack-list {
     display: flex;
     gap: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 }
 
