@@ -326,7 +326,7 @@ h1 {
     height: 100%;
     transition: opacity 0.35s ease-in;
 
-    @media (hover: none) {
+    @media (hover: none) and (pointer: coarse) {
       opacity: 1;
       height: unset;
       position: absolute;
@@ -342,7 +342,7 @@ h1 {
     gap: 50px;
     flex-direction: column;
 
-    @media (hover: none) {
+    @media (hover: none) and (pointer: coarse) {
       flex-direction: row;
       justify-content: space-evenly;
     }
@@ -380,7 +380,7 @@ h1 {
         }
       }
 
-      @media (hover: none) {
+      @media (hover: none) and (pointer: coarse) {
         color: #ededed;
 
         &::after {
