@@ -99,7 +99,7 @@ footer {
 
       transition: filter 0.2s ease-in-out;
 
-      @media (hover: hover) and (pointer: fine) {
+      @media (hover: hover) {
         &:hover {
           filter: invert(49%) sepia(92%) saturate(585%) hue-rotate(116deg) brightness(94%) contrast(95%);
         }
@@ -288,7 +288,7 @@ h1 {
     position: relative;
     cursor: pointer;
 
-    @media (hover: hover) and (pointer: fine) {
+    @media (hover: hover) {
       &:hover .project-card__overlay {
         opacity: 1;
       }
@@ -326,7 +326,7 @@ h1 {
     height: 100%;
     transition: opacity 0.35s ease-in;
 
-    @media (hover: none) and (pointer: coarse) {
+    @media (pointer: coarse) {
       opacity: 1;
       height: unset;
       position: absolute;
@@ -342,7 +342,7 @@ h1 {
     gap: 50px;
     flex-direction: column;
 
-    @media (hover: none) and (pointer: coarse) {
+    @media (pointer: coarse) {
       flex-direction: row;
       justify-content: space-evenly;
     }
@@ -367,7 +367,7 @@ h1 {
         transition: filter 0.3s ease-in-out;
       }
 
-      @media (hover: hover) and (pointer: fine) {
+      @media (hover: hover) {
         &:hover {
           color: #fff;
 
@@ -380,7 +380,7 @@ h1 {
         }
       }
 
-      @media (hover: none) and (pointer: coarse) {
+      @media (pointer: coarse) {
         color: #ededed;
 
         &::after {
